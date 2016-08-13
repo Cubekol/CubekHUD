@@ -1,0 +1,248 @@
+
+
+event DamagedPlayer
+{
+	Animate KnucklesCrosshair		FgColor 	"CkCrosshairFlash" 		Linear 0.0 0.0
+	Animate KnucklesCrosshair 		FgColor 	"CkCrosshair" 			Linear 0.15 0.0
+}
+
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate PlayerStatusHealthValue		fgcolor		"CkHealthBuff"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueShadow		fgcolor		"CkHealthShadowBuff"	Linear 0.0 0.0
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+	Animate PlayerStatusHealthValue		fgcolor		"CkHealth"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueShadow		fgcolor		"CkShadow"	Linear 0.0 0.0
+}
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	Animate PlayerStatusHealthValue		fgcolor		"CkHealthHurt"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueShadow		fgcolor		"CkHealthShadowHurt"	Linear 0.0 0.0
+	
+	
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+	Animate PlayerStatusHealthValue		fgcolor		"CkHealth"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueShadow		fgcolor		"CkShadow"	Linear 0.0 0.0
+}
+
+event HudLowAmmoPulse
+{
+	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
+	Animate AmmoInClip		fgcolor		"CkAmmoLow"				Linear 0.0 0.0
+	Animate AmmoInClipShadow		fgcolor		"CkAmmoShadowLowInClip"				Linear 0.0 0.0
+	Animate AmmoInReserve		fgcolor		"CkAmmoSecondaryLow"				Linear 0.0 0.0
+	Animate AmmoInReserveShadow		fgcolor		"CkAmmoShadowLowSecondary"				Linear 0.0 0.0
+	Animate AmmoNoClip		fgcolor		"CkAmmoLow"				Linear 0.0 0.0
+	Animate AmmoNoClipShadow		fgcolor		"CkAmmoShadowLowInClip"				Linear 0.0 0.0
+	
+	RunEvent HudLowAmmoPulseLoop	0.25
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+	Animate AmmoInClip		fgcolor		"CkAmmo"				Linear 0.0 0.0
+	Animate AmmoInClipShadow		fgcolor		"CkShadow"				Linear 0.0 0.0
+	Animate AmmoInReserve		fgcolor		"CkAmmoSecondary"				Linear 0.0 0.0
+	Animate AmmoInReserveShadow		fgcolor		"CkShadow"				Linear 0.0 0.0
+	Animate AmmoNoClip		fgcolor		"CkAmmo"				Linear 0.0 0.0
+	Animate AmmoNoClipShadow		fgcolor		"CkShadow"				Linear 0.0 0.0
+}
+
+// Flash the medic charge hud when we have full charge
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	FgColor		"CkNegative"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"CkGreen"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"CkBlue"		Linear 0.5 0.6
+	Animate	ChargeLabelShadow 	FgColor		"CkBlue"		Linear 0.0 0.1
+	Animate	ChargeLabelShadow 	FgColor		"CkNegative"		Linear 0.3 0.4
+	Animate	ChargeLabelShadow 	FgColor		"CkGreen"		Linear 0.5 0.6
+	
+	Animate	ChargeMeter 	FgColor		"CkGreen"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"CkNegative"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"CkBlue"		Linear 0.5 0.6
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeLabel 	FgColor		"CkAmmo"		Linear 0.0 0.0001
+	Animate	ChargeLabelShadow 	FgColor		"CkShadow"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"CkAmmo"		Linear 0.0 0.0001
+}
+
+event MMenu_PlayList_Expand
+{
+	Animate ItemsContainer			ypos 420 Spline 0 0.4
+	Animate EventPromo				ypos 530 Spline 0 0.4
+	Animate SafeMode				ypos 470 Spline 0 0.4
+	Animate VRBGPanel				ypos 633 Spline 0 0.4
+	Animate VRModeButton			ypos 639 Spline 0 0.4
+	Animate ShowPromoCodesButton	ypos 639 Spline 0 0.4
+	Animate SettingsButton			ypos 455 Spline 0 0.4
+	Animate TF2SettingsButton		ypos 475 Spline 0 0.4
+	Animate QuitButton				ypos 515 Spline 0 0.4
+	Animate TitleBG					ypos 545 Spline 0 0.4
+	Animate ResumeGameButton		ypos 380 Spline 0 0.4
+	Animate DisconnectButton		ypos 515 Spline 0 0.4
+	Animate ReportPlayerButton		ypos 358 Spline 0 0.4
+	Animate CallVoteButton		ypos 358 Spline 0 0.4
+	Animate MutePlayersButton		ypos 358 Spline 0 0.4
+	Animate RequestCoachButton		ypos 358 Spline 0 0.4
+
+	Animate PlayListContainer Tall 260	 Spline	0.0 0.40
+
+	FireCommand 0 "soundentry Panel.SlideDown"
+}
+
+event MMenu_PlayList_Collapse
+{
+	Animate ItemsContainer			ypos 160 Spline 0 0.4
+	Animate EventPromo				ypos 280 Spline 0 0.4
+	Animate SafeMode				ypos 210 Spline 0 0.4
+	Animate VRBGPanel				ypos 373 Spline	0 0.4
+	Animate VRModeButton			ypos 379 Spline 0 0.4
+	Animate ShowPromoCodesButton	ypos 379 Spline 0 0.4
+	Animate SettingsButton			ypos 195 Spline 0 0.4
+	Animate TF2SettingsButton		ypos 215 Spline 0 0.4
+	Animate QuitButton				ypos 255 Spline 0 0.4
+	Animate TitleBG					ypos 295 Spline 0 0.4
+	Animate ResumeGameButton		ypos 120 Spline 0 0.4
+	Animate DisconnectButton		ypos 255 Spline 0 0.4
+	Animate ReportPlayerButton		ypos 98 Spline 0 0.4
+	Animate CallVoteButton		ypos 98 Spline 0 0.4
+	Animate MutePlayersButton		ypos 98 Spline 0 0.4
+	Animate RequestCoachButton		ypos 98 Spline 0 0.4
+
+	Animate PlayListContainer Tall 0 Spline 0 0.4
+
+	FireCommand 0 "soundentry Panel.SlideUp"
+}
+
+event MMenu_PlayList_Collapse_Immediate
+{
+	Animate ItemsContainer			ypos 160 Spline 0 0
+	Animate EventPromo				ypos 280 Spline 0 0
+	Animate VRBGPanel				ypos 373 Spline	0 0
+	Animate VRModeButton			ypos 379 Spline 0 0
+	Animate ShowPromoCodesButton	ypos 379 Spline 0 0
+	Animate SettingsButton			ypos 195 Spline 0 0
+	Animate TF2SettingsButton		ypos 215 Spline 0 0
+	Animate QuitButton				ypos 255 Spline 0 0
+	Animate TitleBG					ypos 295 Spline 0 0
+	Animate ResumeGameButton		ypos 120 Spline 0 0
+	Animate DisconnectButton		ypos 255 Spline 0 0
+	Animate ReportPlayerButton		ypos 98 Spline 0 0
+	Animate CallVoteButton		ypos 98 Spline 0 0
+	Animate MutePlayersButton		ypos 98 Spline 0 0
+	Animate RequestCoachButton		ypos 98 Spline 0 0
+	
+
+	Animate PlayListContainer Tall 0 Spline 0 0
+}
+
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+
+	RunEvent HudSpyDisguiseHide	0.4
+}
+
+event HudSpyDisguiseHide
+{
+	//Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
+	//Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
+	Animate 	PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.0 0.2
+	Animate		DisguiseNameLabel				xpos		"44"			Linear 0.0 0.2
+	Animate		WeaponNameLabel					xpos		"46"			Linear 0.0 0.2
+	Animate		PlayerStatusClassImage			xpos		"25"			Linear 0.0 0.2
+	Animate		classmodelpanel					xpos		"0"				Linear 0.0 0.2
+}
+
+event HudSpyDisguiseFadeIn
+{
+	//RunEvent HudSpyDisguiseChanged	0
+	//Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+	Animate		DisguiseNameLabel				xpos		"20"			Linear 0.0 0.3
+	Animate		DisguiseNameLabel				xpos		"44"			Linear 0.4 0.2
+	Animate		WeaponNameLabel					xpos		"20"			Linear 0.0 0.3
+	Animate		WeaponNameLabel					xpos		"46"			Linear 0.4 0.2
+	Animate		classmodelpanel					xpos		"24"				Linear 0.0 0.3
+	Animate		classmodelpanel					xpos		"0"			Linear 0.4 0.2
+}
+
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged	0
+	//Animate 	PlayerStatusSpyImage			Alpha		"0"				Linear 0.0 0.1	
+	Animate 	PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+	
+}
+
+// Active Timer BG Pulse
+event ActiveTimerBGPulse
+{
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.3 0.1
+	
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.7 0.1
+	
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
+}
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue FgColor	TanLight		Linear 0.1 0.1
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.3 0.1
+
+	Animate TimePanelValue FgColor	TanLight		Linear 0.5 0.1
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.7 0.1
+
+	Animate TimePanelValue FgColor	TanLight		Linear 0.9 0.1
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 1.1 0.1
+
+	Animate TimePanelValue FgColor	TanLight		Linear 1.3 0.3
+	
+}
+
+event ActiveTimerDim
+{
+	// Slow fade out
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.0 0.4
+}
+//
