@@ -156,7 +156,7 @@ Scheme
 		
 		"ItemAttribLevel"						"117 107 94 255"
 		"ItemAttribNeutral"						"243 243 243 255"
-		"ItemAttribPositive"					"52 152 219 255"
+		"ItemAttribPositive"					"93 235 97 255"
 		"ItemAttribNegative"					"245 54 64 255"
 
 		"ItemSetName"							"93 235 97 255"
@@ -855,7 +855,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -868,7 +868,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -904,7 +904,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -927,7 +927,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -938,7 +938,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -949,7 +949,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -973,7 +973,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -986,7 +986,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -998,7 +998,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1009,7 +1009,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1020,7 +1020,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1032,7 +1032,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1043,7 +1043,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1055,7 +1055,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1066,7 +1066,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1077,7 +1077,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1088,7 +1088,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1099,7 +1099,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1110,7 +1110,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1121,7 +1121,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1132,7 +1132,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1145,7 +1145,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1220,7 +1220,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1508,7 +1508,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1614,7 +1614,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1639,7 +1639,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1651,7 +1651,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1665,7 +1665,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1677,7 +1677,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1689,7 +1689,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1778,7 +1778,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1789,7 +1789,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1800,7 +1800,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1811,7 +1811,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1822,7 +1822,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1834,7 +1834,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -2069,7 +2069,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2079,7 +2079,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2089,7 +2089,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2117,7 +2117,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2126,7 +2126,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2165,7 +2165,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2176,7 +2176,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2187,7 +2187,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2317,7 +2317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2328,7 +2328,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Caviar Dreams"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -2372,7 +2372,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2383,7 +2383,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2538,7 +2538,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2547,7 +2547,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2556,7 +2556,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2569,7 +2569,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2579,7 +2579,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2589,7 +2589,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2603,7 +2603,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2612,7 +2612,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2621,7 +2621,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2634,7 +2634,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2646,7 +2646,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2658,7 +2658,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2766,7 +2766,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2830,7 +2830,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2841,7 +2841,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2865,7 +2865,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2876,7 +2876,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -3779,7 +3779,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3790,7 +3790,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3802,7 +3802,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -3815,7 +3815,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Caviar Dreams"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -6729,7 +6729,7 @@ Scheme
 		"4" 
 		{
 			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
+			"name" "Caviar Dreams"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -6755,7 +6755,7 @@ Scheme
 		"6" 
 		{
 			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
+			"name" "Caviar Dreams Bold"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"

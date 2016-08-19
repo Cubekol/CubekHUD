@@ -196,12 +196,12 @@ event HudSpyDisguiseFadeIn
 {
 	//RunEvent HudSpyDisguiseChanged	0
 	//Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
-	Animate		DisguiseNameLabel				xpos		"20"			Linear 0.0 0.3
-	Animate		DisguiseNameLabel				xpos		"44"			Linear 0.4 0.2
-	Animate		WeaponNameLabel					xpos		"20"			Linear 0.0 0.3
-	Animate		WeaponNameLabel					xpos		"46"			Linear 0.4 0.2
-	Animate		classmodelpanel					xpos		"24"				Linear 0.0 0.3
-	Animate		classmodelpanel					xpos		"0"			Linear 0.4 0.2
+	Animate		DisguiseNameLabel				xpos		"20"			Deaccel 0.0 0.3
+	Animate		DisguiseNameLabel				xpos		"44"			Accel 0.4 0.2
+	Animate		WeaponNameLabel					xpos		"20"			Deaccel 0.0 0.3
+	Animate		WeaponNameLabel					xpos		"46"			Accel 0.4 0.2
+	Animate		classmodelpanel					xpos		"24"				Deaccel 0.0 0.3
+	Animate		classmodelpanel					xpos		"0"			Accel 0.4 0.2
 }
 
 event HudSpyDisguiseFadeOut

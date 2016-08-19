@@ -23,7 +23,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
-		"ypos"	"0"
+		"ypos"	"30"
 		"wide"	"f0"
 		"tall"	"480"
 	}
@@ -34,7 +34,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c0"	[$WIN32]
-		"ypos"	"c0"	[$WIN32]
+		"ypos"	"c30"	[$WIN32]
 		"zpos"	"2"
 		"wide"	"200"
 		"tall"	"200"
