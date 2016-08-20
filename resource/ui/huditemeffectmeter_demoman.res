@@ -110,7 +110,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CaviarBold24"
+		"font"					"CaviarBold24Shadow"
 		"fgcolor"				"CkShadow"
 	}
 }

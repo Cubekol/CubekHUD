@@ -90,10 +90,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-37"	[$WIN32]
-		"ypos"			"c20"	[$WIN32]
-		"wide"			"220"
-		"tall"			"100"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"c65"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"300"
 	}
 	
 	HudDemomanCharge
@@ -101,15 +101,12 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"xpos"			"r360"	[$WIN32]
+		"ypos"			"r181"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
+		"wide"			"f0"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -121,9 +118,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
@@ -262,7 +257,7 @@
 		"xpos"		"c-66"
 		"ypos"		"330"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"55"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
@@ -282,7 +277,7 @@
 		"xpos"		"c-66"
 		"ypos"		"250"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"55"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
@@ -299,7 +294,7 @@
 		"xpos"		"c-66"
 		"ypos"		"365"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"55"
 		"tall_minmode"	 	"28"
 		"priority"	"35"
 
@@ -1034,8 +1029,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c2"	[$WIN32]
-		"ypos"			"c0"	[$WIN32]
-		"wide"			"100"
+		"ypos"			"c30"	[$WIN32]
+		"wide"			"f0"
 		"tall"			"50"
 	}	
 

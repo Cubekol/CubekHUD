@@ -93,8 +93,8 @@
 			"tall"			"33"
 			"zpos"			"1"
 			
-			"color_ready"	"0 255 0 220"
-			"color_notready"	"0 0 0 220"
+			"color_ready"	"93 235 97 255"
+			"color_notready"	"38 38 38 220"
 			
 			if_mvm
 			{
@@ -129,7 +129,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"CkWhite"
 					
 				if_mvm
 				{
@@ -215,7 +215,7 @@
 				"tall"			"20"
 				"visible"		"0"
 				"enabled"		"1"
-				"bgcolor_override"		"Black"
+				"bgcolor_override"		"CkBlack"
 				"PaintBackgroundType"	"0"
 				
 				if_mvm
@@ -278,13 +278,13 @@
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../HUD/tournament_panel_brown"
+				"image"			"../vgui/replay/thumbnails/bg_black"
 
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
 			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+				"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"0"
 				
 				if_mvm
 				{

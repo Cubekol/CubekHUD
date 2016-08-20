@@ -55,7 +55,7 @@ Scheme
 		"CkRed"					"241 100 100 255"	// Red Team
 		"CkWhite"				"243 243 243 255"
 		"CkGray"				"140 140 140 255"	// Spectator
-		"CkGreen"				"93 235 97 255"		// HP Pickup (also Resume highlight)
+		"CkGreen"				"93 235 97 255"
 		"CkNegative"			"221 54 64 255"		// Basically normal red
 		"CkBlack"				"38 38 38 255"		// Black mainly used for backgrounds
 	
@@ -4019,6 +4019,17 @@ Scheme
 				"name"		"Caviar Dreams Bold"
 				"tall"		"24"
 				"antialias" 	"1"
+			}
+		}
+		
+		"CaviarBold24"
+		{
+			"1"
+			{
+				"name"		"Caviar Dreams Bold"
+				"tall"		"24"
+				"antialias" 	"1"
+				"blur"		"1"
 			}
 		}
 		

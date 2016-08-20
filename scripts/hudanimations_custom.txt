@@ -106,7 +106,7 @@ event HudMedicChargedStop
 	
 	Animate	ChargeLabel 	FgColor		"CkAmmo"		Linear 0.0 0.0001
 	Animate	ChargeLabelShadow 	FgColor		"CkShadow"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"CkAmmo"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"CkMain"		Linear 0.0 0.0001
 }
 
 event MMenu_PlayList_Expand
@@ -249,5 +249,13 @@ event ActiveTimerDim
 {
 	// Slow fade out
 	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.0 0.4
+}
+
+event HudReadyPulse
+{
+	Animate	TournamentInstructionsLabel 	FgColor		"CkWhite"		Linear 0.0 0.1
+	Animate	TournamentInstructionsLabel 	FgColor		"CkMain"		Linear 0.3 0.4
+
+	RunEvent HudReadyPulseLoop	0.5
 }
 //
