@@ -236,26 +236,26 @@
 		if_meet_your_match_0
 		{
 			"xpos"		"rs1"
-			"image"		"../console/title_team_competitive_widescreen"
+			"image"		"../console/background"
 		}
 		if_meet_your_match_1
 		{
 			"xpos"		"rs1"
-			"image"		"../console/title_team_competitive_widescreen"
+			"image"		"../console/background_widescreen"
 		}
 		if_meet_your_match_2
 		{
 			"xpos"		"rs1"
-			"image"		"../console/title_team_competitive_widescreen"
+			"image"		"../console/background_widescreen"
 		}
 		if_meet_your_match_3
 		{
 			"xpos"		"rs1"
-			"image"		"../console/title_team_competitive_widescreen"
+			"image"		"../console/background_widescreen"
 		}
 		if_meet_your_match_4
 		{
-			"image"		"../console/title_team_competitive_widescreen"
+			"image"		"../console/background_widescreen"
 		}
 	}
 	
@@ -1548,8 +1548,8 @@
 				{
 					"ControlName"	"CMainMenuPlayListEntry"
 					"fieldName"		"CreateServerEntry"
-					"xpos"			"0"
-					"ypos"			"253"
+					"xpos"			"6969"
+					"ypos"			"6969"
 					"tall"			"45"
 					"wide"			"p1"
 					"proportionaltoparent"	"1"
@@ -1564,8 +1564,8 @@
 				{
 					"ControlName"	"ScrollBar"
 					"FieldName"		"ScrollBar"
-					"xpos"			"rs1-1"
-					"ypos"			"0"
+					"xpos"			"6969"
+					"ypos"			"6969"
 					"tall"			"f0"
 					"wide"			"5" // This gets slammed from client schme.  GG.
 					"zpos"			"1000"

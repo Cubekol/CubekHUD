@@ -25,7 +25,9 @@ Scheme
 		"CkHealthBuff"			"93 235 97 255"
 		
 		"CkHealthShadowHurt"		"234 112 45 255"
+		"CkHealthShadowHurt2"		"174 52 5 225"
 		"CkHealthShadowBuff"		"56 204 10 255"
+		"CkHealthShadowBuff2"		"16 114 10 255"
 	
 		"CkCrosshair"			"255 255 0 255" 	// Color of crosshair
 		"CkCrosshairFlash"		"255 0 0 255"		// Color of crosshair when you hit somebody
@@ -33,10 +35,12 @@ Scheme
 		"CkAmmo"				"243 243 243 255"
 		"CkAmmoSecondary"		"52 73 94 255"
 		"CkAmmoLow"				"221 54 64 255"
-		"CkAmmoLowSecondary"	"215 64 205 255"
+		"CkAmmoLowSecondary"	"221 54 64 255"
 		
 		"CkAmmoShadowLowInClip"		"234 112 45 255"
+		"CkAmmoShadowLowInClip2"	"174 52 5 225"
 		"CkAmmoShadowLowSecondary"	"234 112 45 255"
+		"CkAmmoShadowLowSecondary2"	"174 52 5 225"
 		
 		"CkDamageNumbers"		"255 255 0 255"
 		"CkHealNumbers"			"46 204 113 255"
@@ -1544,7 +1548,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Caviar Dreams"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1559,7 +1563,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Caviar Dreams"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1574,7 +1578,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"Caviar Dreams"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1587,7 +1591,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Caviar Dreams"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -2526,7 +2530,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"Caviar Dreams"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -6742,7 +6746,7 @@ Scheme
 		"5" 
 		{
 			"font" "resource/TF2Professor.ttf"
-			"name" "TF2 Professor"
+			"name" "Caviar Dreams"
 			"russian"
 			{
 				"range" "0x0000 0x00FF"

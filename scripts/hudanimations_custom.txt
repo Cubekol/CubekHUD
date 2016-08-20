@@ -12,7 +12,8 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	Animate PlayerStatusHealthValue		fgcolor		"CkHealthBuff"	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueShadow		fgcolor		"CkHealthShadowBuff"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueShadow		fgcolor		"CkHealthShadowBuff"	Linear 0.0 0.2
+	Animate PlayerStatusHealthValueShadow		fgcolor		"CkHealthShadowBuff2"	Linear 0.2 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -31,7 +32,8 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	Animate PlayerStatusHealthValue		fgcolor		"CkHealthHurt"	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueShadow		fgcolor		"CkHealthShadowHurt"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueShadow		fgcolor		"CkHealthShadowHurt"	Linear 0.0 0.2
+	Animate PlayerStatusHealthValueShadow		fgcolor		"CkHealthShadowHurt2"	Linear 0.2 0.0
 	
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
@@ -50,11 +52,14 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 	Animate AmmoInClip		fgcolor		"CkAmmoLow"				Linear 0.0 0.0
-	Animate AmmoInClipShadow		fgcolor		"CkAmmoShadowLowInClip"				Linear 0.0 0.0
+	Animate AmmoInClipShadow		fgcolor		"CkAmmoShadowLowInClip"				Linear 0.0 0.2
+	Animate AmmoInClipShadow		fgcolor		"CkAmmoShadowLowInClip2"				Linear 0.2 0.0
 	Animate AmmoInReserve		fgcolor		"CkAmmoSecondaryLow"				Linear 0.0 0.0
-	Animate AmmoInReserveShadow		fgcolor		"CkAmmoShadowLowSecondary"				Linear 0.0 0.0
+	Animate AmmoInReserveShadow		fgcolor		"CkAmmoShadowLowSecondary"				Linear 0.0 0.2
+	Animate AmmoInReserveShadow		fgcolor		"CkAmmoShadowLowSecondary2"				Linear 0.2 0.0
 	Animate AmmoNoClip		fgcolor		"CkAmmoLow"				Linear 0.0 0.0
-	Animate AmmoNoClipShadow		fgcolor		"CkAmmoShadowLowInClip"				Linear 0.0 0.0
+	Animate AmmoNoClipShadow		fgcolor		"CkAmmoShadowLowInClip"				Linear 0.0 0.2
+	Animate AmmoNoClipShadow		fgcolor		"CkAmmoShadowLowInClip2"				Linear 0.2 0.0
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
