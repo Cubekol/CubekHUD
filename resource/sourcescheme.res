@@ -13,6 +13,7 @@ Scheme
 		"CkBlack"					"38 38 38 255"
 		"CkBlackLighter"			"68 68 68 255"
 		"CkWhite"					"243 243 243 255"
+		"CkGreen"				"93 235 97 255"
 		
 		/////////////////// Cubek Colors END /////////////	
 		
@@ -138,6 +139,9 @@ Scheme
 		TextEntry.TextColor			        "TFTextBright"
 		TextEntry.DisabledTextColor	        "TFTextMedium"
 		TextEntry.SelectedBgColor	        "CkMain"
+		
+		Console.TextColor			"CkGreen"			
+		Console.DevTextColor		"CkWhite"
 	}
 	
 	Fonts
@@ -277,64 +281,16 @@ Scheme
 	{
 		"6" 
 		{
-			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
-			"turkish"
-			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x017C"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
-			}	
+		"7"
+		{
+			"font" "resource/fonts/CaviarDreams.ttf"
+			"name" "Caviar Dreams"
+		}
+		"8"
+		{
+			"font" "resource/fonts/CaviarDreams_Bold.ttf"
+			"name" "Caviar Dreams Bold"
+		}
 		}
 	}
 }

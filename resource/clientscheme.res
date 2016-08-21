@@ -4022,7 +4022,7 @@ Scheme
 			}
 		}
 		
-		"CaviarBold24"
+		"CaviarBold24Shadow"
 		{
 			"1"
 			{
