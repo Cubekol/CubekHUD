@@ -48,7 +48,7 @@ Scheme
 		"CkMainMenuSideBar"		"0 0 0 150"			// Bar at the main menu color
 		"CkOperationName"		"243 243 243 255"	// Color of the operation's title on main menu
 		
-		"CkMain"				"52 73 94 255"		// Color of the whole theme
+		"CkMain"				"0 157 255 255"		// Color of the whole theme
 		
 		"CkShadow"				"0 0 0 255"
 		"CkBlue"				"52 152 219 255"	// Blue Team
@@ -4215,10 +4215,11 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"replay/thumbnails/bg_black.vtf"
+			
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"2"	
 		}
 	
 		CkPanelBorder
@@ -4813,8 +4814,8 @@ Scheme
 			"image"					"loadout_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"2"	
 		}
 		Econ.Button.Border.Default
 		{
@@ -4835,8 +4836,8 @@ Scheme
 			"image"					"loadout_rect_mouseover"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"2"	
 		}
 		LoadoutItemPopupBorder
 		{
@@ -4846,8 +4847,8 @@ Scheme
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"2"	
 		}
 		
 		BackpackItemGrayedOut

@@ -2556,7 +2556,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"0 157 255 255"
 			
 			"SubImage"
 			{
@@ -2622,7 +2622,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"0 157 255 255"
 			
 			"SubImage"
 			{
@@ -2689,7 +2689,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"0 157 255 255"
 			
 			"SubImage"
 			{
@@ -2768,7 +2768,7 @@
 		"PaintBackgroundType" "0"
 		
 		"image_drawcolor"	"243 243 243 255"
-		"image_armedcolor"	"52 73 94 255"
+		"image_armedcolor"	"0 157 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2816,7 +2816,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"243 243 243 255"
-		"image_armedcolor"	"52 73 94 255"
+		"image_armedcolor"	"0 157 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2864,7 +2864,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"243 243 243 255"
-		"image_armedcolor"	"52 73 94 255"
+		"image_armedcolor"	"0 157 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2912,7 +2912,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"243 243 243 255"
-		"image_armedcolor"	"52 73 94 255"
+		"image_armedcolor"	"0 157 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2960,7 +2960,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"243 243 243 255"
-		"image_armedcolor"	"52 73 94 255"
+		"image_armedcolor"	"0 157 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -3008,7 +3008,7 @@
 		
 		
 		"image_drawcolor"	"243 243 243 255"
-		"image_armedcolor"	"52 73 94 255"
+		"image_armedcolor"	"0 157 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -3055,7 +3055,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"243 243 243 255"
-		"image_armedcolor"	"52 73 94 255"
+		"image_armedcolor"	"0 157 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

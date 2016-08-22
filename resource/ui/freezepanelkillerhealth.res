@@ -59,16 +59,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-5"
+		"xpos"			"10"
 		"ypos"			"15"
 		"zpos"			"5"
-		"wide"			"40"
-		"tall"			"20"
+		"wide"			"100"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CaviarBold16"
+		"font"			"CaviarBold48"
 		"fgcolor"		"CkWhite"
 	}								
 }

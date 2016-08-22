@@ -904,8 +904,8 @@
 		"fieldName"				"FreezePanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"-50"
+		"ypos"					"-80"
 		"wide"					"f0"
 		"tall"					"480"
 	}

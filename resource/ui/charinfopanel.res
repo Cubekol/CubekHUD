@@ -23,8 +23,8 @@
 		"title_font"	"Sosa"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
+		"titlebarfgcolor_override"				"CkWhite"
+		"titlebardisabledfgcolor_override"		"CkWhite"
 		"titlebarbgcolor_override"				"CkBlack"
 		
 		"clientinsetx_override"			"0"
