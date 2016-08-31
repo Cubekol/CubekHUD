@@ -78,23 +78,27 @@ event HudLowAmmoPulseStop
 // Flash the medic charge hud when we have full charge
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"CkNegative"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"CkGreen"		Linear 0.3 0.4
-	Animate	ChargeLabel 	FgColor		"CkBlue"		Linear 0.5 0.6
-	Animate	ChargeLabelShadow 	FgColor		"CkBlue"		Linear 0.0 0.1
-	Animate	ChargeLabelShadow 	FgColor		"CkNegative"		Linear 0.3 0.4
-	Animate	ChargeLabelShadow 	FgColor		"CkGreen"		Linear 0.5 0.6
+	Animate ChargeMeter		Alpha		"255"				Accel 0.0 0.0
+	Animate	ChargeMeter 	FgColor		"244 67 54 255"			Accel 0.0 0.3
+	Animate	ChargeMeter 	FgColor		"255 87 34 255"		Accel 0.3 0.3
+	Animate	ChargeMeter 	FgColor		"255 234 0 255"		Accel 0.6 0.3
+	Animate	ChargeMeter 	FgColor		"0 230 118 255"			Accel 0.9 0.35
+	Animate	ChargeMeter 	FgColor		"33 150 243 255"			Accel 1.2 0.3
+	Animate	ChargeMeter 	FgColor		"13 71 161 255"		Accel 1.5 0.3
+	Animate	ChargeMeter 	FgColor		"103 58 183 255"		Accel 1.8 0.3
 	
-	Animate	ChargeMeter 	FgColor		"CkGreen"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"CkNegative"		Linear 0.3 0.4
-	Animate	ChargeMeter 	FgColor		"CkBlue"		Linear 0.5 0.6
-
-	RunEvent HudMedicChargedLoop	0.6
+	Animate ChargeMeterBG		Position	"473 9"			Linear 0.3 0.0	
+	
+	RunEvent HudMedicChargedLoop	2.1
+	
+	RunEvent LevelInitAny 0.0
 }
 
 // call to loop HudHealthBonusPulse
 event HudMedicChargedLoop
 {
+	
+	
 	RunEvent HudMedicCharged 0.0
 }
 
@@ -106,6 +110,12 @@ event HudMedicChargedStop
 	Animate	ChargeLabel 	FgColor		"CkAmmo"		Linear 0.0 0.0001
 	Animate	ChargeLabelShadow 	FgColor		"CkShadow"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"CkMain"		Linear 0.0 0.0001
+	
+	Animate	ChargeLabelBG 	Alpha		"0"						Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"0 0 0 0"				Linear 0.0 0.0001
+	Animate	ChargeMeter 	Alpha		"0"						Linear 0.0 0.0001
+	Animate	TriUber		 	Alpha		"255"					Linear 0.0 0.0001
+	Animate ChargeMeterBG		Position	"89 9999"			Linear 0.0 0.0001
 }
 
 event MMenu_PlayList_Expand
