@@ -277,7 +277,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"CkWhite"
 	}
 
 	"NameFilterTextEntry"
@@ -296,9 +296,9 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
-		"paintbackgroundtype" "2"
+		"fgcolor_override"	"CkWhite"
+		"bgcolor_override"	"CkBlack"
+		"paintbackgroundtype" "0"
 		"font"		"Caviar12"
 	}
 	
@@ -323,12 +323,12 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"CkWhite"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "CkMain"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "CkMain"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 
@@ -428,6 +428,10 @@
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "CkWhite"
+		"armedFgColor_override" "CkMain"
+		"depressedFgColor_override" "CkMain"
 	}		
 	
 	"CurPageLabel"
@@ -437,7 +441,7 @@
 		"font"			"CaviarBold12"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c220"
+		"xpos"			"c230"
 		"ypos"			"330"
 		"zpos"			"1"
 		"wide"			"50"
@@ -471,6 +475,10 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "CkWhite"
+		"armedFgColor_override" "CkMain"
+		"depressedFgColor_override" "CkMain"
 		
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
@@ -569,8 +577,8 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"?"
 		"font"			"HudFontSmallBold"
@@ -587,8 +595,8 @@
 	{
 		"ControlName"	"CExplanationPopup"
 		"fieldName"		"StartExplanation"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"6969"
+		"ypos"			"6969"
 		"zpos"			"10000"
 		"wide"			"250"
 		"tall"			"140"

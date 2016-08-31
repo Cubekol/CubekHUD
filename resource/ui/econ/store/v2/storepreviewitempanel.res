@@ -77,7 +77,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override" "0 0 0 128"
+		"bgcolor_override" "0 0 0 0"
 	}
 	
 	// Rounded dialog border
@@ -93,7 +93,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"CkBG"
 		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
@@ -109,7 +109,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			"border"		"CkBG"
 		}
 	
 		// 90-degree corners on the top part of the footer
@@ -676,7 +676,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "0 0 0 0"
 		}
 		
 		"itempanel"
@@ -730,7 +730,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "0 0 0 0"
 		}
 		
 		"itempanel"
@@ -784,7 +784,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "0 0 0 0"
 		}
 		
 		"itempanel"
@@ -838,7 +838,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "0 0 0 0"
 		}
 		
 		"itempanel"
@@ -892,7 +892,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "0 0 0 0"
 		}
 		
 		"itempanel"
@@ -1039,9 +1039,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"CkWhite"
+		"armedFgColor_override"		"CkWhite"
+		"depressedFgColor_override"	"CkMain"
 	}		
 	
 	"IconsMoveRightButton"
@@ -1067,9 +1067,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"CkWhite"
+		"armedFgColor_override"		"CkWhite"
+		"depressedFgColor_override"	"CkMain"
 	}	
 	
 	"ClassUsageMouseoverLabel"
@@ -1092,7 +1092,7 @@
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
-		"border"		"LoadoutItemPopupBorder"
+		"border"		"CkBG"
 	}
 
 	"RotLeftButton"
@@ -1118,9 +1118,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"CkWhite"
+		"armedFgColor_override"		"CkWhite"
+		"depressedFgColor_override"	"CkMain"
 		"button_activation_type"	"0"
 	}		
 	
@@ -1147,9 +1147,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"CkWhite"
+		"armedFgColor_override"		"CkWhite"
+		"depressedFgColor_override"	"CkMain"
 		"button_activation_type"	"0"
 	}	
 				
@@ -1200,7 +1200,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"118 107 94 200"
+		"image_drawcolor"		"CkWhite"
 		"image_armedcolor"		"128 117 104 255"
 		
 		"SubImage"
@@ -1245,8 +1245,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"118 107 94 200"
-		"image_armedcolor"		"128 117 104 255"
+		"image_drawcolor"		"CkWhite"
+		"image_armedcolor"		"CkMain"
 		
 		"SubImage"
 		{
@@ -1290,8 +1290,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"118 107 94 200"
-		"image_armedcolor"	"246 247 213 255"
+		"image_drawcolor"	"CkWhite"
+		"image_armedcolor"	"CkMain"
 		
 		"SubImage"
 		{
@@ -1538,7 +1538,11 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		"fgcolor"		"CkWhite"
+		
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"paintbackground"	"0"
 	}		
 	
 	"TryItOutButton"
@@ -1563,7 +1567,11 @@
 		"Command"		"tryitout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		"fgcolor"		"CkWhite"
+		
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"paintbackground"	"0"
 	}	
 	
 	"AddToCartButton"
@@ -1588,10 +1596,10 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"34 30 31 255"
-		"defaultBgColor_override"	"76 107 34 255"
-		"ArmedBgColor_override"	"86 117 44 255"
-		"depressedBgColor_override" "66 97 24 255"
+		"fgcolor"		"CkWhite"
+		"defaultBgColor_override"	"CkGreen"
+		"ArmedBgColor_override"	"CkMain"
+		"depressedBgColor_override" "CkMain"
 	}
 	
 	"mouseoveritempanel"

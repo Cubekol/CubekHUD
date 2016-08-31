@@ -45,7 +45,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"CkBG"
 		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
@@ -61,7 +61,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			"border"		"CkBG"
 		}
 	
 		// 90-degree corners on the top part of the footer

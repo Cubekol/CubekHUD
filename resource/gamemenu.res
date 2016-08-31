@@ -1,5 +1,35 @@
 "GameMenu" [$WIN32]
 {
+	"ServerBrowserButton"
+	{
+		"label" "Servers" 
+		"command" "OpenServerBrowser"
+		"OnlyAtMenu" "1"
+	}
+	"CompetitiveButton"
+	{
+		"label" "Competitive"
+		"command" "play_competitive"
+		"OnlyAtMenu" "1"
+	}
+	"PlayPVEButton"
+	{
+		"label" "MvM" 
+		"command" "play_mvm"
+		"OnlyAtMenu" "1"
+	}
+	"TrainingButton"
+	{
+		"label" "Training" 
+		"command" "offlinepractice"
+		"OnlyAtMenu" "1"
+	}
+	"QuickplayButton"
+	{
+		"label" Casual
+		"command" "play_casual"
+		"OnlyAtMenu" "1"
+	}
 	"ResumeGameButton"
 	{
 		"label"			"#MMenu_ResumeGame"

@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"CkBlack"
-		"infocus_bgcolor_override" "CkBlack"
-		"outoffocus_bgcolor_override" "CkBlack"
+		"bgcolor_override"				"CkBlack"
+		"infocus_bgcolor_override" 		"CkBlack"
+		"outoffocus_bgcolor_override" 	"CkBlack"
 		
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
@@ -27,12 +27,26 @@
 		"class_wide_min"			"60"
 		"class_wide_max"			"100"
 		"class_tall_min"			"120"
-		"class_tall_max"			"200"
+		"class_tall_max"			"180"
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"200 80 60 255"
-		"itemcountcolor_noitems"	"117 107 94 255"
+		"itemcountcolor"			"CkOrange"
+		"itemcountcolor_noitems"	"117 107 94 0"
+	}
+	
+	"COVER"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"COVER"
+		"xpos"			"c40"	
+		"ypos"			"c95"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"90"
+		"fillcolor"		"CkBlack"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 	
 	"scout"
@@ -577,8 +591,8 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"?"
 		"font"			"HudFontSmallBold"

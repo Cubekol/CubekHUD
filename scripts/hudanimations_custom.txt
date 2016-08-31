@@ -1,9 +1,8 @@
 
-
 event DamagedPlayer
 {
-	Animate KnucklesCrosshair		FgColor 	"CkCrosshairFlash" 		Linear 0.0 0.0
-	Animate KnucklesCrosshair 		FgColor 	"CkCrosshair" 			Linear 0.15 0.0
+	Animate KnucklesCrosshair		FgColor 	"CkCrosshairFlash" 		Linear 0.0 0.00001
+	Animate KnucklesCrosshair 		FgColor 	"CkCrosshair" 			Linear 0.10 0.10001
 }
 
 //Health Bonus Pulse

@@ -21,43 +21,44 @@ Scheme
 	//////////////////////// Cubek Colors /////////////////////
 	
 		"CkHealth"				"243 243 243 255"
-		"CkHealthHurt"			"221 54 64 255"
+		"CkHealthHurt"			"244 67 54 255"
 		"CkHealthBuff"			"93 235 97 255"
 		
-		"CkHealthShadowHurt"		"234 112 45 255"
-		"CkHealthShadowHurt2"		"174 52 5 225"
-		"CkHealthShadowBuff"		"56 204 10 255"
-		"CkHealthShadowBuff2"		"16 114 10 255"
+		"CkHealthShadowHurt"		"174 52 5 170"
+		"CkHealthShadowHurt2"		"230 81 0 170"
+		"CkHealthShadowBuff"		"56 204 10 170"
+		"CkHealthShadowBuff2"		"16 114 10 170"
 	
 		"CkCrosshair"			"255 255 0 255" 	// Color of crosshair
 		"CkCrosshairFlash"		"255 0 0 255"		// Color of crosshair when you hit somebody
 	
 		"CkAmmo"				"243 243 243 255"
-		"CkAmmoSecondary"		"52 73 94 255"
-		"CkAmmoLow"				"221 54 64 255"
-		"CkAmmoLowSecondary"	"221 54 64 255"
+		"CkAmmoSecondary"		"33 150 243 255"
+		"CkAmmoLow"				"244 67 54 255"
+		"CkAmmoLowSecondary"	"183 28 28 255"
 		
-		"CkAmmoShadowLowInClip"		"234 112 45 255"
-		"CkAmmoShadowLowInClip2"	"174 52 5 225"
-		"CkAmmoShadowLowSecondary"	"234 112 45 255"
-		"CkAmmoShadowLowSecondary2"	"174 52 5 225"
+		"CkAmmoShadowLowInClip"		"174 52 5 170"
+		"CkAmmoShadowLowInClip2"	"230 81 0 170"					
+		"CkAmmoShadowLowSecondary"	"174 52 5 170"
+		"CkAmmoShadowLowSecondary2"	"230 81 0 170"
 		
-		"CkDamageNumbers"		"255 255 0 255"
-		"CkHealNumbers"			"46 204 113 255"
+		"CkDamageNumbers"		"255 193 7 255"
+		"CkHealNumbers"			"139 195 74 255"
 
 		"CkMainMenuSideBar"		"0 0 0 150"			// Bar at the main menu color
 		"CkOperationName"		"243 243 243 255"	// Color of the operation's title on main menu
 		
-		"CkMain"				"0 157 255 255"		// Color of the whole theme
+		"CkMain"				"33 150 243 255"	// Color of the whole theme
 		
-		"CkShadow"				"0 0 0 255"
+		"CkShadow"				"0 0 0 170"
 		"CkBlue"				"52 152 219 255"	// Blue Team
 		"CkRed"					"241 100 100 255"	// Red Team
 		"CkWhite"				"243 243 243 255"
 		"CkGray"				"140 140 140 255"	// Spectator
-		"CkGreen"				"93 235 97 255"
-		"CkNegative"			"221 54 64 255"		// Basically normal red
-		"CkBlack"				"38 38 38 255"		// Black mainly used for backgrounds
+		"CkGreen"				"0 230 118 255"
+		"CkNegative"			"244 67 54 255"		// Basically normal red
+		"CkBlack"				"33 33 33 255"		// Black mainly used for backgrounds
+		"CkOrange"				"255 87 34 255"
 	
 		///////////////////////// Cubek Colors End //////////////////// 																															(dankemmezxdd)
 		
@@ -177,25 +178,25 @@ Scheme
 		"QualityColorrarity2"					"141 131 75 255"
 		"QualityColorrarity3"					"204 204 250 255"
 		"QualityColorrarity4"					"134 80 172 255"
-		"QualityColorVintage"					"57 113 255 255"
-		"QualityColorUnique"					"255 255 0 255"
+		"QualityColorVintage"					"13 71 161 255"
+		"QualityColorUnique"					"255 235 59 255"
 		"QualityColorCommunity"					"164 199 74 255"
 		"QualityColorDeveloper"					"165 15 121 255"
 		"QualityColorSelfMade"					"112 176 74 255"
 		"QualityColorCustomized"				"71 98 145 255"
-		"QualityColorStrange"					"207 110 57 255"
+		"QualityColorStrange"					"255 152 0 255"
 		"QualityColorCompleted"					"157 64 172 255"
-		"QualityColorHaunted"					"0 255 255 255"
-		"QualityColorCollectors"				"221 54 64 255"
+		"QualityColorHaunted"					"0 188 212 255"
+		"QualityColorCollectors"				"244 67 54 255"
 		"QualityColorPaintkitWeapon"			"250 250 250 255"
 
 		"ItemRarityDefault"						"131 126 119 255"
-		"ItemRarityCommon"						"176 195 217 255"
-		"ItemRarityUncommon"					"94 152 217 255"
-		"ItemRarityRare"						"75 105 255 255"
-		"ItemRarityMythical"					"136 71 255 255"
-		"ItemRarityLegendary"					"211 44 230 255"
-		"ItemRarityAncient"						"235 75 75 255"
+		"ItemRarityCommon"						"187 222 251 255"
+		"ItemRarityUncommon"					"100 181 246 255"
+		"ItemRarityRare"						"33 150 243 255"
+		"ItemRarityMythical"					"103 58 183 255"
+		"ItemRarityLegendary"					"233 30 99 255"
+		"ItemRarityAncient"						"244 67 54 255"
 		
 		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
 		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
@@ -809,7 +810,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -819,7 +820,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -829,7 +830,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -838,7 +839,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -847,7 +848,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -885,7 +886,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -897,7 +898,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -919,7 +920,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -964,7 +965,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1237,7 +1238,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1297,7 +1298,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1307,7 +1308,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1318,7 +1319,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1327,7 +1328,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1336,7 +1337,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1502,7 +1503,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1523,7 +1524,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1631,7 +1632,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1708,7 +1709,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1720,7 +1721,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1730,7 +1731,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1740,7 +1741,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1749,7 +1750,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1758,7 +1759,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1770,7 +1771,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1895,7 +1896,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1995,7 +1996,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -2008,7 +2009,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2020,7 +2021,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2856,7 +2857,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Caviar Dreams Bold"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -4814,8 +4815,8 @@ Scheme
 			"image"					"loadout_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		Econ.Button.Border.Default
 		{
@@ -4836,8 +4837,8 @@ Scheme
 			"image"					"loadout_rect_mouseover"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		LoadoutItemPopupBorder
 		{
@@ -4847,8 +4848,8 @@ Scheme
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		BackpackItemGrayedOut
@@ -4886,8 +4887,8 @@ Scheme
 			"image"					"backpack_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		BackpackItemMouseOverBorder
 		{
@@ -4897,8 +4898,8 @@ Scheme
 			"image"					"backpack_rect_mouseover"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		BackpackItemSelectedBorder
 		{
@@ -4908,8 +4909,8 @@ Scheme
 			"image"					"backpack_rect_selected"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		BackpackItemGreyedOutBorder
 		{
@@ -4920,8 +4921,8 @@ Scheme
 			"image"					"backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		BackpackItemGreyedOutSelectedBorder
 		{
@@ -4932,8 +4933,8 @@ Scheme
 			"image"					"backpack_rect_selected"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		// Unique ------------------------------------------------------------------------------------------------
@@ -6732,7 +6733,7 @@ Scheme
 		"3"
 		{
 			"font" "resource/TF2.ttf"
-			"name" "TF2"
+			"name" "Caviar Dreams Bold"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -6744,7 +6745,7 @@ Scheme
 		}
 		"4" 
 		{
-			"font" "resource/TF2Secondary.ttf"
+			"font" "resource/TF2 Secondary.ttf"
 			"name" "Caviar Dreams"
 			"russian"
 			{
@@ -6757,7 +6758,7 @@ Scheme
 		}
 		"5" 
 		{
-			"font" "resource/TF2Professor.ttf"
+			"font" "resource/TF2 Professor.ttf"
 			"name" "Caviar Dreams"
 			"russian"
 			{
@@ -6770,7 +6771,7 @@ Scheme
 		}	
 		"6" 
 		{
-			"font" "resource/TF2Build.ttf"
+			"font" "resource/TF2 Build.ttf"
 			"name" "Caviar Dreams Bold"
 			"russian"
 			{

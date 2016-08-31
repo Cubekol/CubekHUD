@@ -110,7 +110,7 @@
 			"defaultBgColor_override" "0 0 0 0"
 			"armedFgColor_override" "235 226 202 255"
 			"armedBgColor_override" "0 0 0 0"
-			"depressedFgColor_override" "178 82 22 255"
+			"depressedFgColor_override" "CkMain"
 			"depressedBgColor_override" "0 0 0 0"
 		}
 		
@@ -294,7 +294,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"178 82 22 255"
+			"fgcolor"		"CkMain"
 		}
 		"UpgradeButton"
 		{
