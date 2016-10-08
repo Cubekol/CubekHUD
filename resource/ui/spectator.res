@@ -258,6 +258,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
+		"border"		"CkBG"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -279,13 +280,14 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
+			"inventory_image_type" "1" // Higher quality images
 		}
 		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
+			"font"			"CaviarBold12"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

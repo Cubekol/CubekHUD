@@ -13,11 +13,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/REFRACTblurBlack"
+		"image"			"../vgui/replay/thumbnails/bg_black"
 		"scaleImage"		"1"
-		"teambg_1"		"../vgui/replay/thumbnails/REFRACTblurBlack"
-		"teambg_2"		"../vgui/replay/thumbnails/REFRACTblurBlack"
-		"teambg_3"		"../vgui/replay/thumbnails/REFRACTblurBlack"
+		"teambg_1"		"../vgui/replay/thumbnails/bg_black"
+		"teambg_2"		"../vgui/replay/thumbnails/bg_black"
+		"teambg_3"		"../vgui/replay/thumbnails/bg_black"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"

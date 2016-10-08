@@ -278,9 +278,7 @@
 		"ypos"		"250"
 		"wide"	 	"252"
 		"tall"	 	"55"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
-		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"

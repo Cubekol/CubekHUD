@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"c-80"	[$WIN32]
+		"xpos"			"c-47"	[$WIN32]
 		"ypos"			"c40"	[$WIN32]
 		"wide"			"150"
 		"tall"			"50"

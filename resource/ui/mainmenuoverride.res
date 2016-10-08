@@ -2406,7 +2406,7 @@
 			"depressedFgColor_override" "CkWhite"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
+			"image_armedcolor" "74 74 74 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"

@@ -20,45 +20,55 @@ Scheme
 	
 	//////////////////////// Cubek Colors /////////////////////
 	
-		"CkHealth"				"243 243 243 255"
-		"CkHealthHurt"			"244 67 54 255"
-		"CkHealthBuff"			"93 235 97 255"
+		"CkHealth"					"243 243 243 255"
+		
+		"CkHealthHurt"				"244 67 54 255"
+		"CkHealthHurt2"				"255 87 34 255"
+		"CkHealthHurt3"				"255 82 82 255"
+		
+		"CkHealthBuff"				"0 230 118 255"
+		"CkHealthBuff2"				"93 235 97 255"
+		"CkHealthBuff3"				"105 240 174 255"
 		
 		"CkHealthShadowHurt"		"174 52 5 170"
 		"CkHealthShadowHurt2"		"230 81 0 170"
 		"CkHealthShadowBuff"		"56 204 10 170"
 		"CkHealthShadowBuff2"		"16 114 10 170"
 	
-		"CkCrosshair"			"255 255 0 255" 	// Color of crosshair
-		"CkCrosshairFlash"		"255 0 0 255"		// Color of crosshair when you hit somebody
+		"CkCrosshair"				"255 255 0 255" 	// Color of crosshair
+		"CkCrosshairFlash"			"255 0 0 255"		// Color of crosshair when you hit somebody
 	
-		"CkAmmo"				"243 243 243 255"
-		"CkAmmoSecondary"		"33 150 243 255"
-		"CkAmmoLow"				"244 67 54 255"
-		"CkAmmoLowSecondary"	"183 28 28 255"
+		"CkAmmo"					"243 243 243 255"
+		"CkAmmoSecondary"			"33 150 243 255"
 		
-		"CkAmmoShadowLowInClip"		"174 52 5 170"
-		"CkAmmoShadowLowInClip2"	"230 81 0 170"					
+		"CkAmmoLow"					"244 67 54 255"
+		"CkAmmoLow2"				"255 87 34 255"
+		"CkAmmoLow3"				"255 82 82 255"
+		
+		"CkAmmoLowSecondary"		"255 82 82 255"
+		"CkAmmoLowSecondary2"		"213 0 0 255"
+		"CkAmmoLowSecondary3"		"255 23 68 255"
+		
+		"CkAmmoShadowLowInClip"		"174 52 5 170"				
 		"CkAmmoShadowLowSecondary"	"174 52 5 170"
-		"CkAmmoShadowLowSecondary2"	"230 81 0 170"
 		
-		"CkDamageNumbers"		"255 193 7 255"
-		"CkHealNumbers"			"139 195 74 255"
+		"CkDamageNumbers"			"255 193 7 255"
+		"CkHealNumbers"				"139 195 74 255"
 
-		"CkMainMenuSideBar"		"0 0 0 150"			// Bar at the main menu color
-		"CkOperationName"		"243 243 243 255"	// Color of the operation's title on main menu
+		"CkMainMenuSideBar"			"0 0 0 150"			// Bar at the main menu color
+		"CkOperationName"			"243 243 243 255"	// Color of the operation's title on main menu
 		
-		"CkMain"				"33 150 243 255"	// Color of the whole theme
+		"CkMain"					"33 150 243 255"	// Color of the whole theme
 		
-		"CkShadow"				"0 0 0 170"
-		"CkBlue"				"52 152 219 255"	// Blue Team
-		"CkRed"					"241 100 100 255"	// Red Team
-		"CkWhite"				"243 243 243 255"
-		"CkGray"				"140 140 140 255"	// Spectator
-		"CkGreen"				"0 230 118 255"
-		"CkNegative"			"244 67 54 255"		// Basically normal red
-		"CkBlack"				"33 33 33 255"		// Black mainly used for backgrounds
-		"CkOrange"				"255 87 34 255"
+		"CkShadow"					"0 0 0 170"
+		"CkBlue"					"52 152 219 255"	// Blue Team
+		"CkRed"						"241 100 100 255"	// Red Team
+		"CkWhite"					"243 243 243 255"
+		"CkGray"					"140 140 140 255"	// Spectator
+		"CkGreen"					"0 230 118 255"
+		"CkNegative"				"244 67 54 255"		// Basically normal red
+		"CkBlack"					"33 33 33 255"		// Black mainly used for backgrounds
+		"CkOrange"					"255 87 34 255"
 	
 		///////////////////////// Cubek Colors End //////////////////// 																															(dankemmezxdd)
 		
@@ -179,12 +189,12 @@ Scheme
 		"QualityColorrarity3"					"204 204 250 255"
 		"QualityColorrarity4"					"134 80 172 255"
 		"QualityColorVintage"					"13 71 161 255"
-		"QualityColorUnique"					"255 235 59 255"
+		"QualityColorUnique"					"255 214 0 255"
 		"QualityColorCommunity"					"164 199 74 255"
 		"QualityColorDeveloper"					"165 15 121 255"
 		"QualityColorSelfMade"					"112 176 74 255"
 		"QualityColorCustomized"				"71 98 145 255"
-		"QualityColorStrange"					"255 152 0 255"
+		"QualityColorStrange"					"230 81 0 255"
 		"QualityColorCompleted"					"157 64 172 255"
 		"QualityColorHaunted"					"0 188 212 255"
 		"QualityColorCollectors"				"244 67 54 255"
